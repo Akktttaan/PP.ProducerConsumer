@@ -1,0 +1,20 @@
+﻿<Window x:Class="Client.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Client"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox HorizontalAlignment="Center" Margin="0,28,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="780" Height="71" TextChanged="TextBox_TextChanged" x:Name="InputBox"/>
+        <TextBox HorizontalAlignment="Center" Margin="0,141,0,0" TextWrapping="Wrap" IsEnabled="False" VerticalAlignment="Top" Width="780" Height="71" x:Name="Digits"/>
+        <TextBox HorizontalAlignment="Center" Margin="0,238,0,0" TextWrapping="Wrap" IsEnabled="False" VerticalAlignment="Top" Width="780" Height="71" x:Name="Symbols"/>
+        <TextBox HorizontalAlignment="Center" Margin="0,334,0,0" TextWrapping="Wrap" IsEnabled="False" VerticalAlignment="Top" Width="780" Height="71" x:Name="Others"/>
+        <Label Content="Цифры" HorizontalAlignment="Left" Margin="10,115,0,0" VerticalAlignment="Top"/>
+        <Label Content="Буквы" HorizontalAlignment="Left" Margin="10,212,0,0" VerticalAlignment="Top"/>
+        <Label Content="Все остальное" HorizontalAlignment="Left" Margin="10,308,0,0" VerticalAlignment="Top"/>
+        <Label Content="Ввод" HorizontalAlignment="Left" Margin="10,2,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
